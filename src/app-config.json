@@ -1,41 +1,54 @@
 {
-  "config_version": 1,
+  "users": {
+    "admin_name": "zayed",
+    "admin_email": "zayed@test.com",
+    "staff_seats": 2
+  },
   "client": {
-    "slug": "al-hadad-aero",
-    "business_name": "Al Hadad Aero",
-    "contact_name": "",
-    "contact_email": "",
-    "contact_whatsapp": "",
+    "slug": "asayel-trading",
     "locale": "en",
+    "country": "AE",
     "currency": "AED",
-    "country": "AE"
+    "contact_name": "zayed",
+    "business_name": "asayel",
+    "contact_email": "zayed"
+  },
+  "preset": "services",
+  "modules": {
+    "agent": true,
+    "sales": true,
+    "reports": true,
+    "expenses": true,
+    "invoices": true,
+    "shipping": false,
+    "customers": true,
+    "inventory": false,
+    "telegram_bot": false,
+    "purchase_orders": false,
+    "serial_tracking": false
+  },
+  "package": {
+    "tier": "standard",
+    "monthly_price_aed": 499,
+    "ai_monthly_spend_cap_usd": 15
   },
   "branding": {
     "logo_file": "logo.png",
-    "color_primary": "#c69a58",
     "color_bg_dark": "#0c0a09",
+    "color_primary": "#c69a58",
     "theme_default": "dark"
   },
   "business": {
-    "vat_enabled": true,
     "vat_rate": 5,
-    "product_categories": ["Drone", "Battery", "Spare Part", "Camera System", "OSD Screen", "Accessory", "Tool", "Other"],
-    "customer_types": ["Individual", "Falcon Farm", "Company", "Government", "Dealer"]
+    "vat_enabled": true,
+    "customer_types": [
+      "Retail",
+      "Wholesale"
+    ],
+    "product_categories": [
+      "General"
+    ]
   },
-  "preset": "trader",
-  "modules": {
-    "serial_tracking": true
-  },
-  "users": {
-    "admin_name": "",
-    "admin_email": "",
-    "staff_seats": 3
-  },
-  "package": {
-    "tier": "trader",
-    "monthly_price_aed": 279,
-    "ai_monthly_spend_cap_usd": 10
-  },
-  "custom_requirements": "",
+  "config_version": 1,
   "template_version": "1.0.0"
 }
