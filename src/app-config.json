@@ -1,0 +1,41 @@
+{
+  "config_version": 1,
+  "client": {
+    "slug": "al-hadad-aero",
+    "business_name": "Al Hadad Aero",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_whatsapp": "",
+    "locale": "en",
+    "currency": "AED",
+    "country": "AE"
+  },
+  "branding": {
+    "logo_file": "logo.png",
+    "color_primary": "#c69a58",
+    "color_bg_dark": "#0c0a09",
+    "theme_default": "dark"
+  },
+  "business": {
+    "vat_enabled": true,
+    "vat_rate": 5,
+    "product_categories": ["Drone", "Battery", "Spare Part", "Camera System", "OSD Screen", "Accessory", "Tool", "Other"],
+    "customer_types": ["Individual", "Falcon Farm", "Company", "Government", "Dealer"]
+  },
+  "preset": "trader",
+  "modules": {
+    "serial_tracking": true
+  },
+  "users": {
+    "admin_name": "",
+    "admin_email": "",
+    "staff_seats": 3
+  },
+  "package": {
+    "tier": "trader",
+    "monthly_price_aed": 279,
+    "ai_monthly_spend_cap_usd": 10
+  },
+  "custom_requirements": "",
+  "template_version": "1.0.0"
+}

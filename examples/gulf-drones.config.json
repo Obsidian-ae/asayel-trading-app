@@ -1,0 +1,39 @@
+{
+  "config_version": 1,
+  "client": {
+    "slug": "gulf-drones",
+    "business_name": "Gulf Drones LLC",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_whatsapp": "",
+    "locale": "en",
+    "currency": "AED",
+    "country": "AE"
+  },
+  "branding": {
+    "logo_file": "logo.png",
+    "color_primary": "#c69a58",
+    "color_bg_dark": "#0c0a09",
+    "theme_default": "dark"
+  },
+  "business": {
+    "vat_enabled": true,
+    "vat_rate": 5,
+    "product_categories": ["Drone", "Battery", "Spare Part", "Other"],
+    "customer_types": ["Individual", "Company", "Government"]
+  },
+  "preset": "trader",
+  "modules": {},
+  "users": {
+    "admin_name": "",
+    "admin_email": "",
+    "staff_seats": 3
+  },
+  "package": {
+    "tier": "trader",
+    "monthly_price_aed": 279,
+    "ai_monthly_spend_cap_usd": 10
+  },
+  "custom_requirements": "",
+  "template_version": "1.0.0"
+}

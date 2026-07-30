@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sand-100: #f3ead9;
+  --color-sand-400: #d8b078;
+  --color-sand-500: #c69a58;
+  --color-sand-600: #a87e41;
+}
+@media print {
+  body * { visibility: hidden; }
+  #invoice-print, #invoice-print * { visibility: visible; }
+  #invoice-print { position: fixed; inset: 0; }
+}
+
+/* Fixed, app-like feel on phones */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { overscroll-behavior-y: none; }
+* { touch-action: manipulation; }           /* removes double-tap-to-zoom delay/zoom */
+@media (max-width: 767px) {
+  input, select, textarea { font-size: 16px !important; }  /* stops iOS zooming into fields */
+}

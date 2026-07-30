@@ -1,0 +1,42 @@
+{
+  "config_version": 1,
+  "client": {
+    "slug": "falcon-ridge-trading",
+    "business_name": "Falcon Ridge Trading",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_whatsapp": "",
+    "locale": "en",
+    "currency": "USD",
+    "country": "US"
+  },
+  "branding": {
+    "logo_file": "falcon-logo.svg",
+    "color_primary": "#3b82f6",
+    "color_bg_dark": "#0b1220",
+    "theme_default": "light"
+  },
+  "business": {
+    "vat_enabled": false,
+    "vat_rate": 0,
+    "product_categories": ["Electronics", "Furniture", "Office Supplies", "Other"],
+    "customer_types": ["Individual", "Business"]
+  },
+  "preset": "full",
+  "modules": {
+    "shipping": false,
+    "telegram_bot": false
+  },
+  "users": {
+    "admin_name": "",
+    "admin_email": "",
+    "staff_seats": 5
+  },
+  "package": {
+    "tier": "full",
+    "monthly_price_aed": 449,
+    "ai_monthly_spend_cap_usd": 15
+  },
+  "custom_requirements": "",
+  "template_version": "1.0.0"
+}
